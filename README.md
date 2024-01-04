@@ -47,4 +47,5 @@ Position the camera to have a clear view of the area where customer entries need
 Ensure proper lighting conditions for optimal detection and tracking.
 The camera should be stable and fixed in position to avoid false detections.
 Here is an example:
+
 <img width="546" alt="image" src="https://github.com/Stat27/Customer-Counter/assets/90141495/9b2b1b82-a027-4edb-b034-b246be6a3a85">
