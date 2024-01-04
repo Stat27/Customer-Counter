@@ -21,3 +21,12 @@ Ensure you have Python installed on your system. Then, install the required pack
 
 ```bash
 pip install numpy opencv-python
+
+Start the Application: Run the main script to start the customer counter.
+
+## Usage
+
+1. In the python CustomerCounter.py
+2. Select the Counting Line: Click on two points in the video feed to set the line where customer entries will be counted.
+3. View the Count: The application window displays the number of customers entering.
+4. Exit: Press 'q' to quit the application.
