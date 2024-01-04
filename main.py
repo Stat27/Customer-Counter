@@ -5,7 +5,7 @@ from merge_contours import merge_close_contours,rects_are_close
 
 class CustomerCounter:
     def __init__(self):
-        self.cap = cv2.VideoCapture(r"C:\Users\sxu02\github\Customer-Counter\Recording 2024-01-03 191138.mp4")
+        self.cap = cv2.VideoCapture(r"C:\Users\sxu02\github\Customer-Counter\Test_video.mp4")
         self.backSub = cv2.createBackgroundSubtractorMOG2(history=200, varThreshold=120, detectShadows=False)
 
         self.enter_count = 0
@@ -185,7 +185,6 @@ class CustomerCounter:
 
             # Writing frames to video
             frame_writer.write(frame)
-            mask_writer.write(fgMask)
 
             # press q to stop
             prev_gray = gray.copy()
