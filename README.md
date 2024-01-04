@@ -20,11 +20,11 @@ Customer Counter is a Python application using OpenCV for tracking and counting 
 Ensure you have Python installed on your system. Then, install the required packages using pip:
 
 ```bash
-pip install numpy opencv-python
-
+pip installnumpy opencv-python
+```
 Start the Application: Run the main script to start the customer counter.
 
-## Usage
+## Installation
 
 1. In the python CustomerCounter.py
 2. Select the Counting Line: Click on two points in the video feed to set the line where customer entries will be counted.
